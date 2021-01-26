@@ -5,3 +5,11 @@
 html {
   background-color: var(--light-bg-color--);
 }
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: stretch;
+}

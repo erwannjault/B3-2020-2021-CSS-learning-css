@@ -4,7 +4,6 @@
 
 .img-object-fit {
   object-fit: cover;
-  height: 
 }
 
 picture {
@@ -13,5 +12,4 @@ picture {
 
 img {
   max-width: 100%;
-  height: auto;
 }
