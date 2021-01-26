@@ -1,0 +1,66 @@
+:root {
+  --size-h1--: 3.2rem;
+  --size-h2--: 2.7rem;
+  --size-h3--: 2.3rem;
+  --size-h4--: 1.8rem;
+  --size-h5--: 1.3rem;
+  --size-h6--: 0.7rem;
+  --size-p--: 0.7rem;
+
+  --weight-black--: 800;
+  --weight-bold--: 700;
+  --weight-semibold--: 600;
+  --weight-medium--: 500;
+  --weight-regular--: 400;
+  --weight-light--: 300;
+
+  --line-height-title--: 1.2em;
+  --line-height-text--: 1.5em;
+
+  --light-hue--: 30;
+  --brand-hue--: 354;
+  --dark-hue--: 280;
+
+  --light-bg-color--: hsla(var(--light-hue--), 100%, 99%, 1);
+  --dark-bg-color--: hsla(var(--dark-hue--), 25%, 10%, 1);
+
+  --brand-color--: hsla(var(--brand-hue--), 100%, 55%, 1);
+  --brand-color-hover-- : hsla(var(--brand-hue--), 100%, 60%, 1);
+  --brand-color-click-- : hsla(var(--brand-hue--), 100%, 45%, 1);
+
+  --text-opacity--: 0.65;
+  --richer-text-opacity--: 0.80;
+
+  --dark-text-color--: hsla(var(--dark-hue--), 25%, 10%, var(--text-opacity--));
+  --dark-text-color-richer--: hsla(var(--dark-hue--), 25%, 10%, var(--richer-text-opacity--));
+
+  --light-text-color--: hsla(var(--dark-hue--), 25, 97%, var(--text-opacity--));
+  --light-text-colo-richer--: hsla(var(--dark-hue--), 25, 97%, var(--richer-text-opacity--));
+
+  --opacity-softer--: 0.06;
+  --opacity-soft--: 0.10;
+  --opacity-strong--: 0.15;
+
+  --shadow-nearest--: 1px 2px 8px hsla(var(--dark-hue--), 25%, 10%, var(--opacity-strong--));
+  --shadow-near--: 2px 4px 16px hsla(var(--dark-hue--), 25%, 10%, var(--opacity-soft--));
+  --shadow-far--: 4px 8px 32px hsla(var(--dark-hue--), 25%, 10%, var(--opacity-softer--));
+
+  --spacing-xxs--: 4px;
+  --spacing-xs--: 8px;
+  --spacing-s--: 12px;
+  --spacing-sm--: 16px;
+  --spacing-m--: 24px;
+  --spacing-ml--: 32px;
+  --spacing-l--: 40px;
+  --spacing-lxl--: 48px;
+  --spacing-xl--: 64px;
+  --spacing-xxl--: 80px;
+
+  --title-font--: "Bitter", serif;
+  --text-font--: "Karla", sans-serif;
+
+  --transition-short-- : 150ms ease-in-out;
+  --transition-medium-- : 300ms ease-in-out;
+  --transition-long-- : 500ms ease-in-out;
+  --transition-complex-- : 700ms ease-in-out;
+}

@@ -1,0 +1,39 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px auto 100px;
+}
+
+.grid-container-two {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+.grid-container-three {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+.grid-container-four {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+}
+
+.grid-gap-xs {
+  grid-column-gap: var(--spacing-xs--);
+}
+
+.grid-gap-s {
+  grid-column-gap: var(--spacing-s--);
+}
+
+.grid-gap-m {
+  grid-column-gap: var(--spacing-m--);
+}
+
+.grid-gap-l {
+  grid-column-gap: var(--spacing-l--);
+}
+
+.grid-gap-xl {
+  grid-column-gap: var(--spacing-xl--);
+}

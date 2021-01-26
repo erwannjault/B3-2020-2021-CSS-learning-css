@@ -1,0 +1,40 @@
+main {
+  grid-column: 2;
+}
+
+footer {
+  margin : var(--spacing-xxl--) 0 0 0;
+}
+
+h1 {
+  margin : var(--spacing-xxl--) 0 0 0;
+}
+
+h2 {
+  margin: var(--spacing-xxl--) 0 0 0;
+}
+
+h3 {
+  margin: var(--spacing-m--) 0 0 0;
+}
+
+h4 {
+  margin: var(--spacing-ml--) 0 0 0;
+}
+
+h5 {
+  margin: var(--spacing-m--) 0 0 0;
+}
+
+h6, p, ul:not(nav ul) {
+  margin: var(--spacing-m--) 0 var(--spacing-m--) 0;
+}
+
+li {
+  margin-top : var(--spacing-s--);
+}
+
+p {
+  max-width: 440px;
+  /*Max-width to constraint the line-length of paragraphs to ~50-60 characters.*/
+}

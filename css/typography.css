@@ -1,33 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200..900&display=swap');
 
-:root {
-  font-size: 1.125em;
-  --size-h1--: 4.2rem;
-  --size-h2--: 3.2rem;
-  --size-h3--: 2.4rem;
-  --size-h4--: 1.8rem;
-  --size-h5--: 1.3rem;
-  --size-h6--: 1rem;
-  --size-p--: 1rem;
-  --weight-black--: 800;
-  --weight-bold--: 700;
-  --weight-semibold--: 600;
-  --weight-medium--: 500;
-  --weight-regular--: 400;
-  --weight-light--: 300;
-  --line-height-title--: 1.2em;
-  --line-height-text--: 1.5em;
+ {
+  font-size: 125%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Bitter", serif;
+  font-family: var(--title-font--);
   /* Increment: (1.3333 - 1.2) × 24px = 3.2px */
   line-height: calc(var(--line-height-title--) + 0.2 * 1rem);
+  color: var(--brand-color--);
 }
 
 p, a, div {
-  font-family: "Karla", sans-serif;
+  font-family: var(--text-font--);
+  color: var(--dark-text-color--);
 }
 
 h1 {
@@ -103,7 +90,7 @@ a {
   }
 
   p, a {
-    font-size: calc(var(--size-p--) + .1875 * (100vw - 20rem) / (60 - 20));
+    font-size: var(--font-size--);
     /* from 150% + 0px to 150% + 4.5px */
     line-height: calc(var(--line-height-text--) + .28125 * (100vw - 20rem) / (60 - 20));
   }
@@ -140,7 +127,7 @@ a {
   }
 
   p {
-    font-size: calc(.9375rem + .1875 * 1rem);
+    font-size: var(--font-size--);
     /* Increment: (1.75 - 1.5) × 18px = 4.5px */
     line-height: calc(var(--line-height-text--) + .28125 * 1rem);
   }

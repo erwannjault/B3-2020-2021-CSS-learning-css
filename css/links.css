@@ -1,0 +1,42 @@
+a {
+  color: var(--brand-color--);
+  text-decoration: none;
+}
+
+nav a {
+  position: relative;
+  color : var(--dark-text-color--);
+}
+
+nav .active {
+  color : var(--brand-color--);
+
+}
+
+header nav .active::after{
+  content: "";
+      display: block;
+      width: 100%;
+      height: 4px;
+      background-color: var(--brand-color--);
+      position: absolute;
+      top: 46px;
+}
+
+nav a:not(.active):hover {
+  color : var(--dark-text-color-richer--);
+}
+
+nav a:active {
+  color : var(--brand-color-active--);
+}
+
+header nav a:hover::after {
+  content: "";
+      display: block;
+      width: 100%;
+      height: 4px;
+      background-color: var(--brand-color--);
+      position: absolute;
+      top: 46px;
+}

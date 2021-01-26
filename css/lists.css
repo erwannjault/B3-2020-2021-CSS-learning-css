@@ -1,0 +1,22 @@
+
+nav{
+  background-color: white;
+  box-shadow: var(--shadow-near--);
+  padding: var(--spacing--l--);
+}
+
+nav ul {
+  grid-column: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+
+}
+
+
+nav ul li {
+  display: inline-block;
+  padding: var(--spacing-s--);
+  margin: var(--spacing-s--);
+}

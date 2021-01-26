@@ -4,15 +4,66 @@
 <head>
   <meta charset="utf-8">
   <title>Index</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/scaffolding.css">
-  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/specific/jen-simmons.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+  <header>
+    <nav class="grid-container">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="properties.html">Propriétés</a></li>
+        <li><a href="personnalities.html">Personnalités</a></li>
+        <li><a href="jen-simmons.html" class="active">Jen Simmons</a></li>
+        <li><a href="legal-notice.html">Mentions légales</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--FIN DU HEADER-->
+
+  <!--DÉBUT DU CONTENU DE PAGE-->
+  <div class="grid-container">
+    <main>
+      <h1>Jen Simmons</h1>
+
+      <section>
+        <picture>
+          <source srcset="../img/gorilla-800.jpg" media="(min-width: 800px)">
+          <source srcset="../img/gorilla-600.jpg" media="(min-width: 600px)">
+          <img src="../img/gorilla-backup.jpg" alt="Une image responsive à l'aide de l'élément HTML picture" />
+        </picture>
+
+
+
+        <div class="grid-container grid-container-two grid-gap-xs">
+          <figure class="img-max-width">
+            <img src="../img/gorilla-maxwidth.jpg" alt="Une image responsive à l'aide de la propriété CSS max-width">
+          </figure>
+
+          <img class="img-object-fit" src="../img/gorilla-objectfit.jpg" alt="Une image responsive à l'aide de la propriété CSS object-fit." />
+      </section>
+
+    </main>
+  </div>
+  <!--FIN DU CONTENU DE PAGE-->
+
+  <!--DÉBUT DU FOOTER-->
+  <footer>
+    <nav class="grid-container">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="properties.html">Propriétés</a></li>
+        <li><a href="personnalities.html">Personnalités</a></li>
+        <li><a href="jen-simmons.html" class="active">Jen Simmons</a></li>
+        <li><a href="legal-notice.html">Mentions légales</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <!--FIN DU FOOTER-->
+
 </body>
+</div>
 
 </html>
