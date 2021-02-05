@@ -35,7 +35,7 @@
   --dark-text-color-richer--: hsla(var(--dark-hue--), 25%, 10%, var(--richer-text-opacity--));
 
   --light-text-color--: hsla(var(--dark-hue--), 25, 97%, var(--text-opacity--));
-  --light-text-colo-richer--: hsla(var(--dark-hue--), 25, 97%, var(--richer-text-opacity--));
+  --light-text-color-richer--: hsla(var(--dark-hue--), 25, 97%, var(--richer-text-opacity--));
 
   --opacity-softer--: 0.06;
   --opacity-soft--: 0.10;

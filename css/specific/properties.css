@@ -1,0 +1,33 @@
+.flexbox p {
+  max-width: none;
+}
+
+.flexbox .rotate h2 {
+  transform: rotate(-90deg);
+    white-space: nowrap;
+    margin: auto;
+}
+
+.flexbox .rotate {
+  flex: 0 0 15px;
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox .button {
+  min-width: 296px;
+}
+
+.flexbox > * {
+  margin: 0 var(--spacing-m--);
+}
+
+.flexbox {
+  margin: var(--spacing-l--) 0;
+}
+
+#object-fit {
+  margin: var(--spacing-xl--) 0;
+}

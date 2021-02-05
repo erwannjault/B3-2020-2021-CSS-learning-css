@@ -37,3 +37,7 @@
 .grid-gap-xl {
   grid-column-gap: var(--spacing-xl--);
 }
+
+.grid-gap-xxl {
+  grid-column-gap: var(--spacing-xxl--);
+}

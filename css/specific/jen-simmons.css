@@ -1,0 +1,44 @@
+.grid-container>.grid-container-two {
+  grid-template-columns: 440px auto;
+}
+
+#grid-img {
+  grid-column: span 2;
+  margin: var(--spacing-xxl--) 0 0 0;
+  object-fit: cover;
+  min-width: 100%;
+}
+
+.grid-container-two figure {
+  margin: var(--spacing-m--) 0 0 0;
+}
+
+.grid-container-two img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.row-span-two {
+  grid-row: span 2;
+}
+
+#row-one {
+  grid-row: 2;
+}
+
+#row-two {
+  grid-row: 3;
+}
+
+.col-two {
+  grid-column: 2;
+}
+
+h2 {
+  margin-top: var(--spacing-s--);
+}
+
+h3 {
+  margin-top : var(--spacing-xl--);
+}

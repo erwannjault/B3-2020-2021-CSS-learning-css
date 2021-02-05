@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Index</title>
+  <title>Jen Simmons</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/specific/jen-simmons.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,35 +25,43 @@
 
   <!--DÉBUT DU CONTENU DE PAGE-->
   <div class="grid-container">
-    <main>
-      <h1>Jen Simmons</h1>
-
+    <main class="grid-container grid-container-two grid-gap-xxl">
       <section>
-        <h2>Gorilles</h2>
-        <picture>
-          <source srcset="../img/gorilla-800.jpg" media="(min-width: 800px)">
-          <source srcset="../img/gorilla-600.jpg" media="(min-width: 600px)">
-          <img src="../img/gorilla-backup.jpg" alt="Une image responsive à l'aide de l'élément HTML picture" />
+        <h1>Zoom sur</h1>
+        <h2>Jen Simmons</h2>
+        <h3>Présentation</h3>
+        <p>
+          Jen Simmons est une graphiste, développeur Web, éducatrice et conférencière connue pour son expertise dans les normes Web, en particulier HTML et CSS. Elle est membre du groupe de travail CSS créé par le World Wide Web Consortium et a joué
+          un rôle de premier plan dans le déploiement de la disposition de grille CSS. Simmons est actuellement un concepteur et un défenseur des développeurs chez Mozilla, où elle a conçu le Grid Inspector du navigateur Firefox. Simmons dirige la
+          chaîne YouTube «Layout Land» et a inventé le terme «conception intrinsèque» pour faire référence à sa philosophie des mises en page Web qui mélangent une mise en page fixe, de taille de contenu et fluide.
+        </p>
+
+        <h3>Faits</h3>
+        <p>
+          Elle est une conférencière fréquente lors d'événements tels que An Event Apart, South by Southwest, Fluent et SmashingConf. Simmons a obtenu un BA en sociologie du Gordon College en 1991. En 2007, elle est diplômée de l'Université Temple
+          avec une maîtrise en arts cinématographiques et médiatiques. En plus de travailler sur des sites Web depuis 1998, Simmons est un concepteur pour des pièces imprimées et des performances en direct, y compris des travaux de conception de
+          projection et d'éclairage. Simmons est sur Twitter depuis 2007 et compte plus de 50 000 abonnés.En 2007, elle a inventé le terme «fail whale» pour l'illustration du message d'erreur du site Web qui a montré pendant les pannes jusqu'en 2013.
+        </p>
+      </section>
+
+
+      <section class="grid-container grid-container-two grid-gap-m">
+        <picture id="grid-img">
+          <source srcset="../img/jensimmons.jpg" media="(min-width: 800px)">
+          <source srcset="../img/jen-simmons-600.jpg" media="(min-width: 600px)">
+          <source srcset="../img/jen-simmons-400.jpg" media="(min-width: 400px)">
+          <img src="../img/jensimmons.jpg" alt="Une image responsive à l'aide de l'élément HTML picture" />
         </picture>
 
+        <figure class="col-one row-span-two">
+          <img src="../img/jen-simmons-800.jpeg" alt="Jen Simmons en 4x4" />
+        </figure>
+        <figure class="col-two" id="row-one"><img src="../img/jen-simmons-400.jpg" alt="Jen Simmons sourit" /></figure>
+        <figure class="col-two" id="row-two"><img src="../img/jen-simmons-grid.jpg" alt="Jen Simmons, la boss du CSS" /></figure>
+      </section>
 
 
-        <div class="flexbox">
-          <figure class="img-max-width">
-            <img src="../img/gorilla-maxwidth.jpg" alt="Une image responsive à l'aide de la propriété CSS max-width">
-          </figure>
-
-          <figure>
-            <img class="img-object-fit" src="../img/gorilla-objectfit.jpg" alt="Une image responsive à l'aide de la propriété CSS object-fit." />
-          </figure>
-      </div></section>
-
-
-  <section>
-    <h2>CSS</h2>
-  </section>
-
-  </main>
+    </main>
   </div>
   <!--FIN DU CONTENU DE PAGE-->
 

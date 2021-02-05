@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6 {
   /* Increment: (1.3333 - 1.2) × 24px = 3.2px */
   line-height: calc(var(--line-height-title--) + 0.2 * 1rem);
   color: var(--brand-color--);
+  transition: font-weight var(--transition-medium--);
 }
 
 p, a, div {
@@ -90,6 +91,7 @@ a {
   }
 
   p, a {
+    transition: color var(--transition-medium--), font-weight var(--transition-medium--);
     font-size: var(--font-size--);
     /* from 150% + 0px to 150% + 4.5px */
     line-height: calc(var(--line-height-text--) + .28125 * (100vw - 20rem) / (60 - 20));
@@ -131,4 +133,15 @@ a {
     /* Increment: (1.75 - 1.5) × 18px = 4.5px */
     line-height: calc(var(--line-height-text--) + .28125 * 1rem);
   }
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+  transition: font-weight var(--transition-medium--);
+  font-weight: var(--weight-light--);
+}
+
+h1:hover + p, h2:hover + p, h3:hover + p, h4:hover + p, h5:hover + p, h6:hover + p {
+  transition: color var(--transition-medium--);
+  color: var(--dark-text-color-richer--);
+
 }

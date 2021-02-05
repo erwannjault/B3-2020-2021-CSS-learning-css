@@ -1,0 +1,12 @@
+#personnalities-home img {
+  display: block;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin: auto;
+}
+
+#personnalities-home li {
+  margin: var(--spacing-ml--) auto;
+}
