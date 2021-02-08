@@ -140,7 +140,7 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
   font-weight: var(--weight-light--);
 }
 
-h1:hover + p, h2:hover + p, h3:hover + p, h4:hover + p, h5:hover + p, h6:hover + p {
+h1:hover + p, h2:hover + p, h3:hover + p, h4:hover + p, h5:hover + p, h6:hover + p, p:hover {
   transition: color var(--transition-medium--);
   color: var(--dark-text-color-richer--);
 

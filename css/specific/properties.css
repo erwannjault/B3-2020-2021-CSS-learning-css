@@ -14,6 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index :0;
 }
 
 .flexbox .button {
@@ -30,4 +31,38 @@
 
 #object-fit {
   margin: var(--spacing-xl--) 0;
+}
+
+
+/*low resolution tablets, mobiles (portrait)*/
+@media (min-width: 481px) and (max-width: 767px) {
+.flexbox .rotate h2 {
+  transform: rotate(0deg);
+  margin-bottom: var(--spacing-s--);
+    text-align: left;
+}
+
+.flexbox .button {
+  margin-top : var(--spacing-m--);
+}
+
+.flexbox p {
+  text-align: left;
+}
+}
+
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .flexbox .rotate h2 {
+    transform: rotate(0deg);
+    margin-bottom: var(--spacing-s--);
+  }
+
+  .flexbox .button {
+    margin-top : var(--spacing-m--);
+  }
+
+  .flexbox p {
+    text-align: left;
+  }
 }

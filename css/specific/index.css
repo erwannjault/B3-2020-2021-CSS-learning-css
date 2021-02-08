@@ -10,3 +10,13 @@
 #personnalities-home li {
   margin: var(--spacing-ml--) auto;
 }
+
+.hero-image {
+  grid-column: span 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+  background-image: url();
+}
