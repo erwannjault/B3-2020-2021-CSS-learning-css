@@ -7,14 +7,23 @@
   font-weight: var(--weight-bold--);
   border-radius: 100rem;
   margin: var(--spacing-ml--) 0 0 0;
+  transition: background-color var(--transition-short--), transform var(--transition-short--), box-shadow var(--transition-short--);
+  transform: scale(1);
+  box-shadow: 0 0 rgba(0, 0, 0, 0);
 }
 
 
 
 .button:hover {
   background-color: var(--brand-color-hover--);
+  transform: scale(1.05);
+  transition: background-color var(--transition-short--), transform var(--transition-short--), box-shadow var(--transition-short--);
+  box-shadow : var(--shadow-nearest--);
 }
 
 .button:active{
   background-color: var(--brand-color-click--);
+  transform: scale(1);
+  transition: background-color var(--transition-short--), transform var(--transition-short--), box-shadow var(--transition-short--);
+  box-shadow : 0 0 rgba(0,0,0,0);
 }
