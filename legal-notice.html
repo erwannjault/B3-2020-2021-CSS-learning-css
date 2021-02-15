@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/specific/legal-notice.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg" href="img/favicon.svg">
 </head>
 
 <body>
@@ -36,23 +37,24 @@
         <img src="img/erwann-jault.jfif" alt="Portrait de Sarah Drasner">
         <div>
           <h2>Erwann Jault</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+        <p>Étudiant de troisième année à l'ECV Digital Bordeaux, j'ai développé ce site web dans le cadre d'un projet visant à expérimenter avec le langage web CSS.</p>
       </div>
     </section>
 
     <section class="flexbox flex-column no-wrap" id="right-text">
       <h2>Navigation</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>La navigation a été faite en utilisant une combinaison de <b>Flexbox</b> et <code>display : inline-block</code>. Le menu est en <code>position : sticky</code> pour permettre d'accéder au menu en tout temps. Grâce à l'utilisation de <b>media queries</b> (et d'un peu de <b>Javascript</b>), ce dernier se transforme en burger menu et la navigation, en utilisant <code>flex-direction : column</code>, passe d'horizontal à vertical.</p>
       <h2>Accueil</h2>
-      <p>L'accueil a été développé en utilisant une première section de CSS Columns, se dégradant de 3 à 1 colonne(s) prenant une largeur maximale de 320 pixels. La section Personnalités est structuré à l'aide d'un conteneur Grid CSS créant trois colonnes. Ce grand conteneur est divisé en autant de conteneurs Flexbox que de personnalités. Ces conteneurs permettent d'agencer de façon modulaire l'image par rapport au texte.</p>
-      <h2>Personnalités</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></section>
+      <p>L'accueil a été développé en utilisant une première section de <b>CSS Columns</b>, se dégradant de 3 à 1 colonne(s) prenant une largeur maximale de 320 pixels grâce à <code>columns : 3 320px</code>. La section Personnalités est structuré à l'aide d'un conteneur <b>Grid CSS</b> créant trois colonnes. Ce grand conteneur est divisé en autant de conteneurs Flexbox que de personnalités. Ces conteneurs permettent d'agencer de façon modulaire l'image par rapport au texte. La hero Image a été fait en donnant une hauteur avec la portion de code <code>height : 60vh</code> et en utilisant les propriétés <b>CSS Background</b>. En utilisant les propriétés de la variable webfont Bitter et les propriétés <b>CSS Transitions</b>, les titres changent leur graisse au survol.</p>
+      <h2>Propriétés</h2>
+      <p>La page Propriétés utilise les attributs CSS de Flexbox et de transformation. Les éléments sont en ligne grâce à <code>flex-direction : row</code>, sont espacés les uns des autres d'un même espace grâce à <code>justify-content : space-between</code> et sont centrés sur l'axe verticale du conteneur principale grâce à <code>align-items : center</code>. Le code <code>flex-wrap : no-wrap</code> contraint les éléments à loger sur une seule et même ligne. Sur le titre, un <code>transform : rotate(90deg)</code> est appliquée.</p>
+      </section>
 
     <section class="flexbox flex-column no-wrap" id="left-text">
-      <h2>Propriétés</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h2>Personnalités</h2>
+      <p>La page Personnalités utilise <b>Grid CSS</b> et <b>Flexbox</b> ensemble. La page est séparée en deux colonnes grâce à <code>grid-template-column : repeat(2,1fr)</code> et chaque section est structurée visuellement par Flexbox avec un conteneur principal avec un <code>flex-direction : row;</code> et deux conteneurs secondaires en <code>flex-direction : column</code>. L'image utilise <code>object-fit : cover</code> avec une hauteur, une largeur et un border-radius donnés.</p>
       <h2>Jen Simmons</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>La page de présentation de Jen Simmons met à profit les <b>Grid CSS</b>, les propriétés de l'élément HTML <b>Picture</b> ainsi que <b>Object-fit</b> et <b>max-width</b>. En utilisant les Media Queries, le contenu entier se dégrade de deux à une colonne quand l'écran rétrécit. On notera aussi que les paragraphes de l'entièreté du site sont contraints à une <code>max-width : 440px</code>, ce qui correspond à une ligne de texte entre 55 à 65 caractères soit la longueur optimale pour lire.</p>
     </section>
   </div>
 

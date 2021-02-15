@@ -8,7 +8,7 @@ window.addEventListener('load', function load() {
       burger.classList.replace("fa-times", "fa-bars");
     }
     else {
-      ul.classList.add('mobile-nav');
+      ul.classList.toggle('mobile-nav');
       burger.classList.replace("fa-bars", "fa-times");
     }
   })

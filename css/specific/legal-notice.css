@@ -30,6 +30,7 @@
 
 .flexbox p {
   max-width: none;
+  position: relative;
 }
 
 @media (min-width: 481px) and (max-width: 767px) {

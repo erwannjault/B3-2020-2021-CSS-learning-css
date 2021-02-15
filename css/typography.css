@@ -145,3 +145,12 @@ h1:hover + p, h2:hover + p, h3:hover + p, h4:hover + p, h5:hover + p, h6:hover +
   color: var(--dark-text-color-richer--);
 
 }
+
+
+i {
+  font-style: italic;
+}
+
+b {
+  font-weight: var(--weight-bold--);
+}
